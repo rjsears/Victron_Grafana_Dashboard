@@ -684,7 +684,7 @@
                   "fixed": "transparent"
                 },
                 "image": {
-                  "fixed": "https://internal.loft.aero/images/misc/gen_stopped.png",
+                  "fixed": "https://internal.yourdomain.com/images/misc/gen_stopped.png",
                   "mode": "fixed"
                 },
                 "size": "contain"
