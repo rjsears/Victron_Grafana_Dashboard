@@ -1,3 +1,4 @@
+
 <h2 align="center">
   <a name="dash" href="https://github.com/rjsears/Victron_Grafana_Dashboard"><img src="https://github.com/rjsears/Victron_Grafana_Dashboard/blob/main/images/dashboard.png" alt="Grafana_Dashboard"></a>
   <br>
@@ -28,5 +29,8 @@ The system they chose for their needs ended up with the following configuration:
 <br><hr><br>
 Installation and configuration were pretty straightforward. Victron is top-notch hardware, and everything went together and was programmed, and up and running in a single day not counting the install time for the panels, generator, propane tank and running all of the necessary wires.
 <br><br>
-The Cerbo GX ties everything together, and that is where the Touch 70 screen connects, so you can monitor your system.<br><center>
-<a name="dash" href="https://github.com/rjsears/Victron_Grafana_Dashboard"><img src="https://github.com/rjsears/Victron_Grafana_Dashboard/blob/main/images/cerbo_gx.png" alt="Grafana_Dashboard" height="700" width="550"></a></center>
+The Cerbo GX ties everything together, and that is where the Touch 70 screen connects, so you can monitor your system.<br>
+  
+  <p align="center">
+<a name="dash" href="https://github.com/rjsears/Victron_Grafana_Dashboard"><img src="https://github.com/rjsears/Victron_Grafana_Dashboard/blob/main/images/cerbo_gx.png" alt="Grafana_Dashboard" height="700" width="550"></a></p>
+
