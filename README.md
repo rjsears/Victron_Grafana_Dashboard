@@ -1,6 +1,6 @@
 
 <h2 align="center">
-  <a name="dash" href="https://github.com/rjsears/Victron_Grafana_Dashboard"><img src="https://github.com/rjsears/Victron_Grafana_Dashboard/blob/main/images/dashboard.png" alt="Grafana_Dashboard"></a>
+  <a name="dash" href="https://github.com/rjsears/Victron_Grafana_Dashboard/blob/main/images/dashboard.png"><img src="https://github.com/rjsears/Victron_Grafana_Dashboard/blob/main/images/dashboard.png" alt="Grafana_Dashboard"></a>
   <br>
   Dashboard (V1.0.0 - September 20th, 2025)
   </h2>
@@ -27,10 +27,37 @@ The system they chose for their needs ended up with the following configuration:
 </ul>
 
 <br><hr><br>
-Installation and configuration were pretty straightforward. Victron is top-notch hardware, and everything went together and was programmed, and up and running in a single day not counting the install time for the panels, generator, propane tank and running all of the necessary wires.
+Installation and configuration were pretty straightforward. Victron is top-notch hardware, and everything went together and was programmed, and up and running in a single day, not counting the install time for the panels, generator, propane tank, and running all of the necessary wires.
 <br><br>
 The Cerbo GX ties everything together, and that is where the Touch 70 screen connects, so you can monitor your system.<br>
   
   <p align="center">
-<a name="dash" href="https://github.com/rjsears/Victron_Grafana_Dashboard"><img src="https://github.com/rjsears/Victron_Grafana_Dashboard/blob/main/images/cerbo_gx.png" alt="Grafana_Dashboard" height="700" width="550"></a></p>
+<a name="dash" href="https://github.com/rjsears/Victron_Grafana_Dashboard/blob/main/images/cerbo_gx.png"><img src="https://github.com/rjsears/Victron_Grafana_Dashboard/blob/main/images/cerbo_gx.png" alt="Grafana_Dashboard" height="700" width="550"></a></p>
+<br>
+They even offer an online view of the system via a secure website, but while nice, it lacks a lot of in-depth historical data.<br><br>
+  <p align="center">
+<a name="dash" href="https://github.com/rjsears/Victron_Grafana_Dashboard/blob/main/images/vrm1.png"><img src="https://github.com/rjsears/Victron_Grafana_Dashboard/blob/main/images/vrm1.png" alt="Grafana_Dashboard" height="700" width="550"></a></p>
+<br>
+  <p align="center">
+<a name="dash" href="https://github.com/rjsears/Victron_Grafana_Dashboard/blob/main/images/vrm2.png"><img src="https://github.com/rjsears/Victron_Grafana_Dashboard/blob/main/images/vrm2.png" alt="Grafana_Dashboard" height="700" width="550"></a></p>
+<hr>
+Having spent many years using Grafana and InfluxDB for various power and weather projects, I set out to design a dashboard that would provide my friends with more data and allow them to store it for as long as they like for historical reference. The Victron VRM solution only stores data for six months, or so I was told. Besides having absolutly top-notch hardware, Victron also open-sources their software so you can run it on a Pi or whatever. <br><br>When I started looking at how I could get the data myself from the Cerbo GX, imagine my surprise to find out that Victron had already done all the legwork for me! All I needed to do was fire up a VM, grab a simple docker command, and in minutes I was completely up and running with the bare bones of what I needed:
+<br><br>
+<p align="center">
+<a name="dash" href="https://github.com/rjsears/Victron_Grafana_Dashboard/blob/main/images/vm.png"><img src="https://github.com/rjsears/Victron_Grafana_Dashboard/blob/main/images/vm.png" alt="Grafana_Dashboard"></a></p>
+<br><br>
+I'm not going to go into details on how to install all the software since they do an excellent job of it themselves, but I am thankful that they have put this all together for us. Once it was up and running, the only thing left was to create my dashboards!
+<br><br>
+<a href="https://github.com/victronenergy/venus-grafana">Victron Grafana Repo</a>
+<br><br>
+So far, I have built two different dashboards, the one shown above, for viewing on a computer, and one laid out just a bit differently for viewing on an iPad. I am using Canvus to automate my generator icon. If you are running your own version of Grafana and Influx and don't want to use the Victron Docker method, make sure your version of Grafana supports Canvus.
+
+<a name="dash" href="https://github.com/rjsears/Victron_Grafana_Dashboard/blob/main/images/gen_stopped.png"><img src="https://github.com/rjsears/Victron_Grafana_Dashboard/blob/main/images/gen_stopped.png" alt="Generator Stopped" height="50%" width="50%"></a>
+<a name="dash" href="https://github.com/rjsears/Victron_Grafana_Dashboard/blob/main/images/Generator_running.gif"><img src="https://github.com/rjsears/Victron_Grafana_Dashboard/blob/main/images/Generator_running.gif" alt="Generator Running"></a>
+<hr>
+<p align="center">
+  <a name="dash" href="https://github.com/rjsears/Victron_Grafana_Dashboard/blob/main/images/ipad.png"><img src="https://github.com/rjsears/Victron_Grafana_Dashboard/blob/main/images/ipad.png" alt="Grafana_Dashboard" height="700" width="550"></a></p>
+  <br><br>
+
+  I hope this gives people some ideas of what they can do with Grafana and the Victron ecosystem! Enjoy.
 
