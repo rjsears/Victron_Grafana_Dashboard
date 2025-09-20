@@ -7,6 +7,6 @@
 Simple Grafana Dashboard for monitoring a Solar install
   </p>
 <hr>
-<a name="overview"></a>Overview & Theory of Operation
+####<a name="overview"></a>Overview & Theory of Operation
 <p></p>
 I have some friends that purchased a piece of property that is completely off-grid.
