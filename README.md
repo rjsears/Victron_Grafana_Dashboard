@@ -7,6 +7,23 @@
 Simple Grafana Dashboard for monitoring a Solar install
   </p>
 <hr>
-####<a name="overview"></a>Overview & Theory of Operation
-<p></p>
-I have some friends that purchased a piece of property that is completely off-grid.
+<b></em><a name="overview"></a>Overview & Theory of Operation</b>
+<br><p>
+I have some friends who purchased a piece of property that is entirely off-grid. The house was being powered by 4 small panels, an old (but still functional) Xantrex inverter and a couple of small golf cart batteries.  Every night, they would deplete the batteries and lose power. So they purchased a new system, and I helped them install it. 
+</p><br>
+
+The system they chose for their needs ended up with the following configuration:
+<ul>
+  <li><a href="https://www.victronenergy.com/inverters-chargers/multiplus-ii">Victron Multiplus-II 48/5000/120</a></li>
+  <li><a href="https://www.victronenergy.com/inverters-chargers/multiplus-ii">Victron MPPT 450/100</li>
+  <li><a href="https://www.victronenergy.com/dc-distribution-systems/lynx-distributor">Victron Lynx Distributor</li>
+  <li><a href="https://www.victronenergy.com/dc-distribution-systems/lynx-power-in">Victron Lynx Power In</li>
+  <li><a href="https://www.victronenergy.com/communication-centres/cerbo-gx">Victron Cergo GX</li>
+  <li><a href="https://www.victronenergy.com/display-and-panels/gx-touch-50">Victron GX Touch 70</li>
+  <li><a href="https://eg4electronics.com/categories/batteries/eg4-wallmount-indoor-280ah-lithium-battery/">EG4 280Ah LiFePO4 14.3kWh Battery</li>
+  <li><a href="https://silfabsolar.com/our-solar-panels/silfab-prime/sil-440-qd/">Ten Silfab Prime 440 Watt Solar Panels</li>
+  <li><a href="https://www.generac.com/residential-products/standby-generators/gaseous/14kw-standby-generator-wifi-enabled-7223/">Generac Guardian 14kW Standby Generator</li>
+</ul>
+
+<hr>
+Installation and configuration were pretty straightforward. Victron is top-notch hardware, and everything went together and was programmed, and up and running in a single day not counting the install time for the panels, generator, propane tank and running all of the necessary wires.
