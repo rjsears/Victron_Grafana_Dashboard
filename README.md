@@ -60,4 +60,13 @@ So far, I have built two different dashboards, the one shown above, for viewing 
   <br><br>
 
   I hope this gives people some ideas of what they can do with Grafana and the Victron ecosystem! Enjoy.
+  <br><br>
+# <a name="changelog"></a>Changelog
+<b>V1.0.0 2025-09-20</b>
+   - Initial Release
+
+<b>V1.0.1 2025-09-24</b>
+   - Added Solar output via Solcast (https://www.solcast/com) free API
+   - Added Sun elevation via Sun and Moon Grafana Plugin found <a href="https://grafana.com/grafana/plugins/fetzerch-sunandmoon-datasource/">HERE</a>
+   - Added weather banner via <a href="https://weatherwidget.io/">Weatherwidget.io</a> 
 
