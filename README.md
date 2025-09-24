@@ -2,7 +2,7 @@
 <h2 align="center">
   <a name="dash" href="https://github.com/rjsears/Victron_Grafana_Dashboard/blob/main/images/dashboard.png"><img src="https://github.com/rjsears/Victron_Grafana_Dashboard/blob/main/images/dashboard.png" alt="Grafana_Dashboard"></a>
   <br>
-  Dashboard (V1.0.0 - September 20th, 2025)
+  Dashboard (V1.0.1 - September 24th, 2025)
   </h2>
   <p align="center">
 Simple Grafana Dashboard for monitoring a Solar install
