@@ -4,6 +4,16 @@
   <br>
   Dashboard (V1.0.1 - September 24th, 2025)
   </h2>
+  <h4 align="center">Be sure to  :star:  my repo so you can keep up to date on any updates and progress!</h4>
+<br>
+<div align="center">
+    <a href="https://github.com/rjsears/Victron_Grafana_Dashboard/commits/master"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/rjsears/Victron_Grafana_Dashboard?style=plastic"></a>
+    <a href="https://github.com/rjsears/Victron_Grafana_Dashboard/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/rjsears/Victron_Grafana_Dashboard?style=plastic"></a>
+    <a href="https://github.com/rjsears/Victron_Grafana_Dashboard/blob/master/LICENSE"><img alt="License" src="https://img.shields.io/github/license/rjsears/Victron_Grafana_Dashboard?style=plastic"></a>
+ <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/rjsears/Victron_Grafana_Dashboard?style=plastic">
+<img alt="GitHub contributors" src="https://img.shields.io/github/contributors/rjsears/Victron_Grafana_Dashboard?style=plastic">
+</h4>
+</div><br><br>
   <p align="center">
 Simple Grafana Dashboard for monitoring a Solar install
   </p>
