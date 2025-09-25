@@ -1,9 +1,15 @@
 
-<h2 align="center">
+<h3 align="center">
+  Dashboard (V1.0.1 - September 25th, 2025)  </h3>
+  <p align="center">
+Simple Grafana Dashboard for monitoring a Victron Solar install
+  </p>
   <a name="dash" href="https://github.com/rjsears/Victron_Grafana_Dashboard/blob/main/images/dashboard.png"><img src="https://github.com/rjsears/Victron_Grafana_Dashboard/blob/main/images/dashboard.png" alt="Grafana_Dashboard"></a>
-  <br>
-  Dashboard (V1.0.1 - September 24th, 2025)
-  </h2>
+  Main Dashboard
+  <br><br>
+  <a name="dash" href="https://github.com/rjsears/Victron_Grafana_Dashboard/blob/main/images/sun_projection.png"><img src="https://github.com/rjsears/Victron_Grafana_Dashboard/blob/main/images/sun_projection.png" alt="Grafana_Dashboard"></a>
+  Example of available sunlight expected graphed from Solcast
+<hr>
   <h4 align="center">Be sure to  :star:  my repo so you can keep up to date on any updates and progress!</h4>
 <br>
 <div align="center">
@@ -13,10 +19,7 @@
  <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/rjsears/Victron_Grafana_Dashboard?style=plastic">
 <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/rjsears/Victron_Grafana_Dashboard?style=plastic">
 </h4>
-</div><br><br>
-  <p align="center">
-Simple Grafana Dashboard for monitoring a Solar install
-  </p>
+</div><br>
 <hr>
 <b></em><a name="overview"></a>Overview & Theory of Operation</b>
 <br><p>
